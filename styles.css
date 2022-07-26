@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+  
+main {
+  background-color: #141414;
+  padding: 20px 0;
+  color: white;
+}
+
+h1{
+  margin-bottom: 30px;
+  font-size: 4rem;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, rgba(255,0,0,1) 20%, rgba(255,252,0,1) 50%, rgba(5,255,0,1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+h1, h3, h4 {
+  padding: 10px 0;
+  font-weight: 700;  
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+h3{
+  margin-top: 50px;
+  font-size: 1.7rem;
+}
+
+.subtitle{
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.album{
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.img-div{
+  max-width: 250px;
+  margin: 15px auto;
+}
+  
+.image {
+  width: 100%;
+  box-shadow: 5px 5px 5px rgb(98, 98, 98);
+  margin-bottom: 7px;
+}
+
+.img-caption{
+  font-size: 0.8rem;
+}
+  
+ul, blockquote {
+  text-align: left;    
+}
+  
+ul li {
+  margin: 15px auto;
+  width: 60%;
+  font-size: 1.1rem;
+}
+  
+blockquote {
+  font-style: italic;
+  margin: 35px auto;
+  width: 40vw;
+  font-size: 1.2rem;
+}
